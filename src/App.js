@@ -13,7 +13,7 @@ export default function App() {
     calculateInterest(initialValue, monthlyInterest, monthlyPeriod);
   }, [initialValue, monthlyInterest, monthlyPeriod]);
 
-  const calculateInterest = (cinitialValue, monthlyInterest, monthlyPeriod) => {
+  const calculateInterest = (initialValue, monthlyInterest, monthlyPeriod) => {
 
     const newInstallments = [];
 
