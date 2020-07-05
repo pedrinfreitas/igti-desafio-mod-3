@@ -1,68 +1,32 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Objetivos
+* Exercitaros seguintes conceitos trabalhados no Módulo.
+* Implementação de algoritmos com JavaScriptCriação de componentes com React.
+* Utilização de class components, functional components ou hooks.
 
-## Available Scripts
+# Enunciado
+Criar uma aplicação com React, realizar cálculo de valorização/depreciação com base em um montante, taxa de juros mensal e quantidade de parcelas mensal, utilizando o conceito de juros compostos.
 
-In the project directory, you can run:
+# Atividades
+Os alunos deverão desempenhar as seguintes atividades:
 
-### `yarn start`
+1. Criar o projeto com o pacote create-react-appou utilizar o projeto _react-projeto-base já disponibilizado pelo professor no fórum do módulo. Essa última é a forma recomendada pelo professor.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+2. Definir os elementos que farão parte do estado da aplicação. 
+* O estado da aplicação deve ser composto do valor inicial, a taxa de juros mensal e o período. 
+* A taxa de juros pode ser tanto positiva (investimento) quanto negativa (depreciação).
+* A implementação da manipulação do estado da aplicação pode ser feita tanto com class componentsquanto hooks, ficando a escolha a critério do aluno.
+Entretanto, as questões do desafio serão elaboradas com base em conceitos e implementação referentes somente aos React Hooks.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+3. O aluno deve pesquisar/investigar como deve ser feito o cálculo das prestações com base nas imagens abaixo e com base no vídeo de apresentação do professor. Há várias formas de se implementar esse cálculo.4.A interface fica a critério do aluno. O foco da avaliação serão os cálculos e conceitos relacionados aoReact Hooks.5.As imagens abaixo podem servir de orientação para o aluno.
 
-### `yarn test`
+## Obs
+* Indica que R$ 1.000,00 aplicados a uma taxa de juros de 0,5% ao mês,rende aproximadamente 0,50% ou R$ 5,00 após 1 mês.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* Após mudança de estado, que indica que R$ 5.900,00 aplicados a uma taxa de juros de 0,8% ao mês, rende aproximadamente 10,03% ou R$ 592,00 após 12meses.
 
-### `yarn build`
+* Tela após mudança de estado, que indica que R$ 70.000,00 com taxa de depreciação de 2% ao mês, desvaloriza aproximadamente 38,42% ou R$ 26.895,38 após 24 meses.
+* Quebre a aplicação em quatro componentes: <App />, <Form /> (com os três inputs), <Installments /> e <Installment /> (parcelas/parcela, em inglês).
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+link: [Desafio pronto:]().
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+![Trabalho pronto](https://github.com/pedrinfreitas/igti-desafio-mod-3/blob/master/trabalho-pronto.JPG)
